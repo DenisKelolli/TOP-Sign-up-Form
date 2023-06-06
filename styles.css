@@ -78,7 +78,7 @@
     border: 1px solid #ccc;
   }
 
-  input[type="text"]:focus,
+input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="password"]:focus {
@@ -122,5 +122,9 @@ input[type="password"]:focus {
   .button_container,.login_container{
     padding: 20px;
     padding-left: 50px;
+  }
+
+  .error_message{
+    color: red;
   }
 
