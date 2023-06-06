@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    display: flex;
+}
+
+.left_image_container{
+
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+}
+
+.logo_container{
+    background-color: black;
+    height: 150px;
+    position: relative;
+    bottom: 80vh;
+    opacity: .6;
+    padding: 10px;
+}
+
+.logo_container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.left_image_container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.right_sign_up_form_container{
+    background-color: gainsboro;
+    height: 100vh;
+    width: 60vw;
+}
+
+.quote_container{
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.form_container{
+    background-color: white;
+}
+
+.form_header {
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    outline: none;
+  border-color: blue;
+  box-shadow: 1px 1px 1px grey;
+}
+
+  @media screen and (min-width: 1200px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+      width: 300px;
+    }
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .first_name_last_name_row,.email_phone_number_row,.password_confirm_password_row{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+
+  .first_name_last_name_row{
+    padding-top: 40px;
+  }
+
+  .button_container,.login_container{
+    padding: 20px;
+    padding-left: 50px;
+  }
+
